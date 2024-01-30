@@ -1,0 +1,243 @@
+.preloader {
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /*background: #000;*/
+    position: fixed;
+    top: 0;
+    left:-150px;
+    z-index: 999999999;
+    display: inline-grid;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#9647DB), to(#5E57EA));
+    background-image: linear-gradient(#9647DB, #5E57EA);*/
+}
+
+.preloader_wrap {
+    display: flex;
+    zoom: 2;
+}
+
+.cssload-mask1 {
+   
+   -moz-transform: skew(0deg, 0) rotate(90deg) !important;
+    /* left: -43px !important; */
+    margin: 0px 0px 0px -250px;
+    width: 588px !important;
+}
+
+.cssload-mask2 {
+   -moz-transform: skew(0deg, 0) rotate(50deg) !important;
+    /* left: -43px !important; */
+    margin: 80px 0px 0px 0px;
+    width: 248px !important;
+}
+.cssload-mask3 {
+   
+   -moz-transform: skew(0deg, 0) rotate(-50deg) !important;
+    /* left: -43px !important; */
+    margin: -70px 0px 0px 0px;
+    width: 248px !important;
+}
+.cssload-mask11 {
+   
+  -moz-transform: skew(0deg, 0) rotate(60deg) !important;
+    /* left: -43px !important; */
+    margin: 0px 0px 0px 0px;
+    width: 388px !important;
+}
+
+.cssload-mask22 {
+  -moz-transform: skew(-15deg, 0deg) rotate(110deg) !important;
+    /* left: -43px !important; */
+    margin: 0px 0px 0px -180px;
+    width: 370px !important;
+}
+.cssload-mask33 {
+   -moz-transform: skew(0deg, 0) rotate(0deg) !important;
+    /* left: -43px !important; */
+    margin: 50px 0px 0px -35px;
+    width: 268px !important;
+
+}
+
+
+#cssload-global {
+    width: 58px;
+    margin: auto;
+    position: relative;
+    height: 58px;
+}
+#cssload-global1 {
+    width: 110px;
+    margin: auto;
+    position: relative;
+    height: 58px;
+  
+}
+
+.cssload-mask {
+    position: absolute;
+    border-radius: 2px;
+    overflow: hidden;
+    perspective: 1000;
+    -o-perspective: 1000;
+    -ms-perspective: 1000;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.cssload-plane {
+    background: var(--color1);
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    perspective: 1000;
+    -o-perspective: 1000;
+    -ms-perspective: 1000;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+#cssload-top .cssload-plane {
+    z-index: 2000;
+    animation: cssload-trans1 1.5s ease-in infinite 0s backwards;
+    -o-animation: cssload-trans1 1.5s ease-in infinite 0s backwards;
+    -ms-animation: cssload-trans1 1.5s ease-in infinite 0s backwards;
+    -webkit-animation: cssload-trans1 1.5s ease-in infinite 0s backwards;
+    -moz-animation: cssload-trans1 1.5s ease-in infinite 0s backwards;
+}
+
+
+
+#cssload-top {
+    width: 52px;
+    height: 49px;
+    left: 19px;
+    transform: skew(-15deg, 0);
+    -o-transform: skew(-15deg, 0);
+    -ms-transform: skew(-15deg, 0);
+    -webkit-transform: skew(-15deg, 0);
+    -moz-transform: skew(-15deg, 0);
+    z-index: 100;
+}
+
+@keyframes cssload-trans1 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+
+
+@keyframes cssload-animColor {
+    from {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: green;
+    }
+    75% {
+        background: brown;
+    }
+    to {
+        background: blue;
+    }
+}
+
+@-o-keyframes cssload-animColor {
+    from {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: green;
+    }
+    75% {
+        background: brown;
+    }
+    to {
+        background: blue;
+    }
+}
+
+@-ms-keyframes cssload-animColor {
+    from {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: green;
+    }
+    75% {
+        background: brown;
+    }
+    to {
+        background: blue;
+    }
+}
+
+@-webkit-keyframes cssload-animColor {
+    from {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: green;
+    }
+    75% {
+        background: brown;
+    }
+    to {
+        background: blue;
+    }
+}
+
+@-moz-keyframes cssload-animColor {
+    from {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: green;
+    }
+    75% {
+        background: brown;
+    }
+    to {
+        background: blue;
+    }
+}

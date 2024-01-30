@@ -1,0 +1,125 @@
+.art-link.art-color-link {
+    color: #1e90ff
+}
+
+.art-link.art-color-link:hover {
+    color: #1e90ff;
+}
+
+.art-btn {
+    background: #1e90ff;
+}
+
+blockquote {
+    background: #1e90ff;
+}
+
+.art-custom-list li:before {
+    border: solid 2px #1e90ff;
+}
+
+.art-info-bar .art-header .art-avatar .art-lamp-light .art-available-lamp {
+    background: #31a24c;
+}
+
+.art-info-bar .art-name:hover a {
+    color: #1e90ff
+}
+
+.art-info-bar .art-knowledge-list li:before {
+    color: #1e90ff;
+}
+
+.art-menu-bar .art-language-change li.art-active-lang {
+    background-color: #1e90ff;
+}
+
+.art-code i {
+    color: #1e90ff
+}
+
+.art-counter-frame .art-counter-box .art-counter {
+    color: #1e90ff;
+}
+
+.art-counter-frame .art-counter-box .art-counter-plus {
+    color: #1e90ff;
+}
+
+.art-price.art-popular-price:before {
+    background: #1e90ff
+}
+
+.art-price .art-price-body .art-price-cost .art-number {
+    color: #1e90ff;
+}
+
+.art-price .art-price-body .art-price-list li:before {
+    color: #1e90ff
+}
+
+.art-price .art-price-body .art-price-list li.art-empty-item:before {
+    color: #1e90ff
+}
+
+.art-testimonial .art-testimonial-footer .art-star-rate {
+    color: #1e90ff
+}
+
+.art-slider-navigation .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #1e90ff;
+}
+
+.fancybox-progress {
+    background: #1e90ff;
+}
+
+.fancybox-thumbs__list a:before {
+    border-color: #1e90ff;
+}
+
+.art-timeline .art-timeline-item .art-timeline-mark {
+    border: solid 3px #1e90ff;
+}
+
+.art-form-field textarea.art-active {
+    border-color: #1e90ff
+}
+
+.art-form-field textarea:focus {
+    border-color: #1e90ff
+}
+
+.art-contact-form .art-input.art-active+label,
+.art-contact-form .art-input:focus+label {
+    background: #1e90ff;
+}
+
+.art-pagination .art-pagination-center a.art-active-pag {
+    color: #1e90ff
+}
+
+.art-preloader-load path:last-child {
+    stroke: #1e90ff;
+}
+
+.art-line-progress path:last-child {
+    stroke: #1e90ff;
+}
+
+.art-cirkle-progress path:last-child {
+    stroke: #1e90ff;
+}
+
+.art-menu-bar .art-language-change li.art-active-lang a {
+    color: #fff;
+}
+
+.art-btn,
+.art-btn:hover {
+    color: #fff;
+}
+
+.art-app {
+    height: calc(var(--vh, 1vh) * 100) !important;
+}
