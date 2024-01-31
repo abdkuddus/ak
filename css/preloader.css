@@ -3,8 +3,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
-    /*background: #000;*/
+    height: 100%;
+
     position: fixed;
     top: 0;
     left:-150px;
@@ -22,7 +22,10 @@
 }
 
 .cssload-mask1 {
-   
+      	transform: skew(0deg, 0) rotate(90deg)  !important;
+    -o-transform:skew(0deg, 0) rotate(90deg)   !important;
+    -ms-transform: skew(0deg, 0) rotate(90deg)  !important;
+    -webkit-transform: skew(0deg, 0) rotate(90deg) !important;
    -moz-transform: skew(0deg, 0) rotate(90deg) !important;
     /* left: -43px !important; */
     margin: 0px 0px 0px -250px;
@@ -30,20 +33,30 @@
 }
 
 .cssload-mask2 {
-   -moz-transform: skew(0deg, 0) rotate(50deg) !important;
-    /* left: -43px !important; */
+
     margin: 80px 0px 0px 0px;
     width: 248px !important;
+	transform: skew(0deg, 0) rotate(50deg) !important;
+    -o-transform: skew(0deg, 0) rotate(50deg) !important;
+    -ms-transform: skew(0deg, 0) rotate(50deg)  !important;
+    -webkit-transform: skew(0deg, 0) rotate(50deg)  !important;
+     -moz-transform: skew(0deg, 0) rotate(50deg) !important;
 }
 .cssload-mask3 {
-   
+   	transform: skew(0deg, 0) rotate(-50deg) !important;
+    -o-transform: skew(0deg, 0) rotate(-50deg)  !important;
+    -ms-transform: skew(0deg, 0) rotate(-50deg)  !important;
+    -webkit-transform: skew(0deg, 0) rotate(-50deg)  !important;
    -moz-transform: skew(0deg, 0) rotate(-50deg) !important;
     /* left: -43px !important; */
     margin: -70px 0px 0px 0px;
     width: 248px !important;
 }
 .cssload-mask11 {
-   
+   transform: skew(0deg, 0) rotate(60deg)!important;
+    -o-transform: skew(0deg, 0) rotate(60deg)  !important;
+    -ms-transform:skew(0deg, 0) rotate(60deg) !important;
+    -webkit-transform: skew(0deg, 0) rotate(60deg) !important;
   -moz-transform: skew(0deg, 0) rotate(60deg) !important;
     /* left: -43px !important; */
     margin: 0px 0px 0px 0px;
@@ -51,12 +64,20 @@
 }
 
 .cssload-mask22 {
+     transform: skew(-15deg, 0deg) rotate(110deg)!important;
+    -o-transform: skew(-15deg, 0deg) rotate(110deg) !important;
+    -ms-transform:skew(-15deg, 0deg) rotate(110deg)!important;
+    -webkit-transform: skew(-15deg, 0deg) rotate(110deg) !important;
   -moz-transform: skew(-15deg, 0deg) rotate(110deg) !important;
     /* left: -43px !important; */
     margin: 0px 0px 0px -180px;
     width: 370px !important;
 }
 .cssload-mask33 {
+	     transform: skew(0deg, 0) rotate(0deg)!important;
+    -o-transform: skew(0deg, 0) rotate(0deg) !important;
+    -ms-transform:skew(0deg, 0) rotate(0deg)!important;
+    -webkit-transform:skew(0deg, 0) rotate(0deg) !important;
    -moz-transform: skew(0deg, 0) rotate(0deg) !important;
     /* left: -43px !important; */
     margin: 50px 0px 0px -35px;
@@ -140,7 +161,6 @@
     -moz-transform: skew(-15deg, 0);
     z-index: 100;
 }
-
 @keyframes cssload-trans1 {
     from {
         transform: translate3d(400px, 0, 0);
@@ -149,6 +169,218 @@
         transform: translate3d(-244px, 0, 0);
     }
 }
+
+@-o-keyframes cssload-trans1 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-ms-keyframes cssload-trans1 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-trans1 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-moz-keyframes cssload-trans1 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+@-o-keyframes cssload-trans2 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-ms-keyframes cssload-trans2 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-trans2 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-moz-keyframes cssload-trans2 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+@-o-keyframes cssload-trans3 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-ms-keyframes cssload-trans3 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-trans3 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-moz-keyframes cssload-trans3 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+@-o-keyframes cssload-trans11 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-ms-keyframes cssload-trans11 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-trans11 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-moz-keyframes cssload-trans11 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+@-o-keyframes cssload-trans22 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-ms-keyframes cssload-trans22 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-trans22 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-moz-keyframes cssload-trans22 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+@-o-keyframes cssload-trans33 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-ms-keyframes cssload-trans33 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-webkit-keyframes cssload-trans33 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
+@-moz-keyframes cssload-trans33 {
+    from {
+        transform: translate3d(400px, 0, 0);
+    }
+    to {
+        transform: translate3d(-244px, 0, 0);
+    }
+}
+
 
 
 
