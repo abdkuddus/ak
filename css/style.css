@@ -780,6 +780,7 @@ app marcup
   .art-scroll-frame {
       height: calc(var(--vh, 1vh) * 100);
   }
+  
   .art-app {
       padding: 0;
       /* ----- mobile top bar ----- */
@@ -835,7 +836,7 @@ app marcup
       padding-top: 53px;
   }
   footer {
-      margin-bottom: 70px !important;
+      margin-bottom: 50px !important;
   }
   .art-app .art-app-wrapper .art-app-container .art-content .art-scroll-frame {
       height: calc(100vh - 53px);
@@ -880,6 +881,7 @@ app marcup (after 290px)
   .art-app {
       /* ----- info bar ----- */
   }
+ 
   .art-app .art-info-bar {
       width: 100vw;
   }
@@ -898,6 +900,7 @@ app marcup (after 230px)
   .art-app {
       /* ----- menu bar ----- */
   }
+  
   .art-app .art-menu-bar {
       width: 100vw;
   }
@@ -964,10 +967,16 @@ content (after 920px)
   .art-banner .art-banner-overlay {
       padding: 50px 30px;
   }
- 
+  .art-lg-text {
+    font-size: 14px;
+    padding-bottom: 145%;
+  }
+  
   .art-banner .art-banner-overlay .art-banner-title {
       text-align: center;
+      display: absolute;
   }
+  
   .art-banner .art-banner-overlay .art-banner-title h1 {
       color: #fafafc;
       font-size: 46px;
@@ -1863,7 +1872,6 @@ content
   z-index: 0;
   top: -20px;
   width: 90%;
-  height: 0px;
   margin-left: 5%;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.6);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.6);
@@ -1875,7 +1883,7 @@ content
 .art-banner {
   -webkit-transition: 0.55s ease-in-out;
   transition: 0.55s ease-in-out;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
   position: relative;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -1889,7 +1897,8 @@ content
   display: flex;
   padding: 0px;
   width: 100%;
-  height:350px;
+  height:450px;
+  background-size:cover;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(45, 45, 58, 0.6)), color-stop(50%, rgba(45, 45, 58, 0.5)), to(rgba(43, 43, 53, 0.5)));
   background-image: linear-gradient(90deg, rgba(45, 45, 58, 0.6) 15%, rgba(45, 45, 58, 0.2) 50%, rgba(43, 43, 53, 0.7) 100%);
 }
@@ -1906,8 +1915,8 @@ content
   color: #fafafc;
 }
 .art-banner .art-banner-overlay .art-banner-photo {
-	width:30%;
-	height:110%;
+	width:32%;
+	height:85%;
   position: absolute;
   right: 10px;
   bottom: 0;
@@ -2995,29 +3004,29 @@ width:980px;
 overflow: hidden;
 }
 .cir_left{
-  width:25%;
+  
   height: 250px;
-margin-left: 20px;
+
   overflow: hidden;
   float: left;
-
+padding-left: 10%;
 }
 .cir_in{
-  width: 25%;
+  width: 35%;
   height: 270px;
-margin-left: 40px;
   overflow: hidden;
 
   float: left;
   margin-top: 10px;
-
+  padding-left: 10%;
 }
 .cir_right{
   width:25%;
   overflow: hidden;
   height: 270px;
   float: left;
- margin-left: 50px;
+  padding-left: 10%;
+
 }
 .container{
   font-size: 10px;
@@ -3026,6 +3035,7 @@ margin-left: 40px;
   position: absolute;
   overflow: hidden;
   float: left;
+  padding-left: 20px;
   border-radius: 50px;
   background-color: rgb(25, 19, 107);
   box-shadow:
@@ -3115,9 +3125,11 @@ to{
     0 0 0 2px rgb(201, 50, 12),
     0.3em 0.3em 1em rgba(226, 194, 12, 0.6);
     p{
-      color:black;
-      margin-top: 20px;
+      color:white;
+ text-align: center;
       font-size: 15px;
+      margin-top: 15px;
+      text-shadow: red;
     }
   }
 .an2{
@@ -3128,7 +3140,7 @@ to{
   width: 95px;
   position: absolute;
   height: 95px;
-  margin: 85px 0px 0px 100px;
+  
   border-radius: 10000px;
   border: 2px solid rgb(128, 0, 96)
   ;
