@@ -3001,31 +3001,24 @@ html.is-animating .fade-left {
 height: 100%;
 width:100%;
 overflow: hidden;
+display:block;
+margin:auto;
 }
 .cir_left{
-  
   height: 250px;
-
+position:center;
   overflow: hidden;
-  float: left;
-padding-left: 20%;
+  
 }
 .cir_in{
-  width: 35%;
   height: 270px;
   overflow: hidden;
-
-  float: left;
   margin-top: 10px;
-  padding-left: 20%;
 }
 .cir_right{
   width:25%;
   overflow: hidden;
   height: 270px;
-  float: left;
-  padding-left: 20%;
-
 }
 .container{
   font-size: 10px;
@@ -3058,7 +3051,6 @@ padding-left: 20%;
   border-width: 0.2em 0.2em 0 0;
   border-radius: 50%;
 }
-
 .earth{
   top: 2.5em;
   right: 2.5em;
