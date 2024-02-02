@@ -435,7 +435,7 @@ space
 
 ------------------------------ */
 .p-30-0 {
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 0;
 }
 
@@ -2998,9 +2998,8 @@ html.is-animating .fade-left {
     display: none !important;
 }
 .cir{
-height: 270px;
-width:980px;
-
+height: 100%;
+width:100%;
 overflow: hidden;
 }
 .cir_left{
@@ -3009,7 +3008,7 @@ overflow: hidden;
 
   overflow: hidden;
   float: left;
-padding-left: 10%;
+padding-left: 20%;
 }
 .cir_in{
   width: 35%;
@@ -3018,14 +3017,14 @@ padding-left: 10%;
 
   float: left;
   margin-top: 10px;
-  padding-left: 10%;
+  padding-left: 20%;
 }
 .cir_right{
   width:25%;
   overflow: hidden;
   height: 270px;
   float: left;
-  padding-left: 10%;
+  padding-left: 20%;
 
 }
 .container{
@@ -3035,7 +3034,6 @@ padding-left: 10%;
   position: absolute;
   overflow: hidden;
   float: left;
-  padding-left: 20px;
   border-radius: 50px;
   background-color: rgb(25, 19, 107);
   box-shadow:
