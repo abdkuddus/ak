@@ -175,7 +175,42 @@ h6 {
   font-style: italic;
   font-size: 18px;
 }
-
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  margin-top: 20px;
+  background-color: rgba(6, 58, 71, 0.89);
+  animation: status 7s ease forwards;
+  color:yellow;
+  border-radius: 20px;
+}
+#status.error {
+  margin-top: 20px;
+  background-color: rgba(6, 58, 71, 0.89);
+  color:yellow;
+  animation: status 7s ease forwards;
+  border-radius: 20px;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 /* ----- divider ----- */
 .art-ls-divider {
   background: #273c75;
@@ -648,7 +683,7 @@ app marcup
   transition: 0.55s ease-in-out;
 }
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-info-bar-header {
   width: 100%;
@@ -1529,8 +1564,8 @@ font-size:28px;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 20px;
-  height: 40px;
-  background: linear-gradient(159deg, rgb(147 136 16 / 98%) 0%, rgb(189 37 195 / 98%) 100%);
+  height: 50px;
+  background: linear-gradient(159deg, rgb(16 147 107 / 98%) 0%, rgb(195 37 37 / 98%) 100%);
   position: absolute;
   bottom: 0;
   -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
